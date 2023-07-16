@@ -8,11 +8,16 @@
 <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/index.css">
 <body>
-<div id="ibu-land">
-    <body>
-        <audio autoplay=""[loop="†" src="dep/track.mp3" type="audio/mpeg"></audio>
-    </body>
-<audio autoplay loop id="ibu-audio" playsinline>Your browser does not support the audio element.</audio>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.js"></script>
+<script>
+var sound = new Howl({
+    src: ['../dep/track.mp3'],
+    autoplay: true,
+    loop: true,
+    volume: 0.5,
+});
+sound.play();
+</script>
 <div class="content">
 <div id="stars"></div>
 <div id="logo-particles"></div>
