@@ -35,6 +35,10 @@
     height: 100%;
 }
 
+.body {
+    cursor: none;
+}
+
 .stars {
     position: absolute;
     width: 100%;
