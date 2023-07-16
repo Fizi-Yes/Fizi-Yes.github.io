@@ -35,10 +35,6 @@
     height: 100%;
 }
 
-.body {
-    cursor: none;
-}
-
 .stars {
     position: absolute;
     width: 100%;
@@ -46,7 +42,7 @@
 }
 
 .content {
-	z-index: 2;
+    z-index: 2;
     display:inline-block !important; 
     position: fixed;
     right: 0;
@@ -56,6 +52,7 @@
     background: rgb(0, 0, 0);
     color: #f1f1f1;
     padding: 20px;
+    cursor: none;
 }
 
 .spacing {
